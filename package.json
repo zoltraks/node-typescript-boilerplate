@@ -27,6 +27,7 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
+    "start": "ts-node src/index.ts",
     "clean": "rimraf coverage build dist out tmp",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
