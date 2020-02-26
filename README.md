@@ -1,11 +1,10 @@
 [![TypeScript version][ts-badge]][typescript-38]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][LICENSE]
-[![Build Status - Travis][travis-badge]][travis-ci]
-[![Build Status - GitHub Actions][gha-badge]][gha-ci]
-[![Sponsor][sponsor-badge]][sponsor]
 
-# node-typescript-boilerplate
+# TypeScript Boilerplate
+
+Forked from [node-typescript-boilerplate](https://github.com/jsynowiec/node-typescript-boilerplate). Thanks!
 
 👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
 
@@ -17,9 +16,10 @@
 + Type definitions for Node.js and Jest
 + [Prettier][prettier] to enforce consistent code style
 + NPM [scripts](#available-scripts) for common operations
-+ simple example of TypeScript code and unit test
++ Simple example of TypeScript code and unit test
 + .editorconfig for consistent file format
-+ example configuration for [GitHub Actions][gh-actions] and [Travis CI][travis]
++ Example configuration for [GitHub Actions][gh-actions] and [Travis CI][travis]
++ Webpack
 
 🤲 Free as in speach: available under the APLv2 license.
 
@@ -29,25 +29,16 @@ This project is intended to be used with the latest Active LTS release of [Node.
 
 ### Use as a repository template
 
-To start, just click the **[Use template][repo-template-action]** link (or the green button). Now start adding your code in the `src` and unit tests in the `__tests__` directories.
+To start, just click the **[Use template][repo-template-action]** link (or the green button). Now start adding your code in the `src` and unit tests in the `test` directory.
 
 ### Clone repository
 
 To clone the repository use the following commands:
 
 ```sh
-git clone https://github.com/jsynowiec/node-typescript-boilerplate
+git clone https://github.com/zoltraks/node-typescript-boilerplate
 cd node-typescript-boilerplate
 npm install
-```
-
-### Download latest release
-
-Download and unzip current `master` branch or one of tags:
-
-```sh
-wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/master.zip -O node-typescript-boilerplate.zip
-unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 ```
 
 ## Available Scripts
@@ -68,10 +59,6 @@ Writing unit tests in TypeScript can sometimes be troublesome and confusing. Esp
 
 This is **optional**, but if you want to learn how to write JavaScript tests for TypeScript modules, read the [corresponding wiki page][wiki-js-tests].
 
-## Backers & Sponsors
-
-Support this project by becoming a sponsor.
-
 ## License
 
 Licensed under the APLv2. See the [LICENSE](LICENSE.txt) file for details.
@@ -87,9 +74,6 @@ Licensed under the APLv2. See the [LICENSE](LICENSE.txt) file for details.
 [typescript-38]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-8.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
-
-[sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
-[sponsor]: https://github.com/sponsors/jsynowiec
 
 [jest]: https://facebook.github.io/jest/
 [eslint]: https://github.com/eslint/eslint
