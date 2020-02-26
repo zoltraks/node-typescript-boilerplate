@@ -55,6 +55,7 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 + `clean` - remove coverage data, Jest cache and transpiled files,
 + `build` - transpile TypeScript to ES6,
 + `build:watch` - interactive watch mode to automatically transpile source files,
++ `webpack` - bundle project with webpack,
 + `lint` - lint source files and tests,
 + `test` - run tests,
 + `test:watch` - interactive watch mode to automatically re-run tests
@@ -72,7 +73,8 @@ This is **optional**, but if you want to learn how to write JavaScript tests for
 Support this project by becoming a sponsor.
 
 ## License
-Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
+
+Licensed under the APLv2. See the [LICENSE](LICENSE.txt) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-3.8-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2012.13-blue.svg
