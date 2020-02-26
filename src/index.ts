@@ -31,4 +31,4 @@ export async function greeter(name: string) {
   return await delayedHello(name, Delays.Long);
 }
 
-console.log("Hello");
+delayedHello("World").then((value: string) => console.log(value));
