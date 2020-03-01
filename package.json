@@ -5,7 +5,7 @@
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "Apache-2.0",
   "engines": {
-    "node": ">= 12.13 <13"
+    "node": ">=12.13"
   },
   "devDependencies": {
     "@types/jest": "~25.1.2",
