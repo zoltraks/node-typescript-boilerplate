@@ -10,6 +10,8 @@
     "jsx": "react",
     "alwaysStrict": true,
     "sourceMap": true,
+    "incremental": true,
+    "removeComments": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
